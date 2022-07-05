@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn{
+    background: #FF5959;
+    color: #fff;
+    padding: 18px 32px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.my-width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* hero section */
+
+.banner-section{
+    background-image: linear-gradient(to top, #000000, #00000051), url(./images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text{
+    width: 55%;
+    text-align: center;
+}
+
+.banner-text h1{
+    color: #fff;
+}
+
+.banner-text p{
+    color: #fff;
+    padding: 20px 0 30px;
+}
+
+/* donate-today section */
+
+.donate-today-section{
+    text-align: center;
+    padding: 120px 0;
+}
+
+.donate-today-text{
+    margin: 20px 0 50px;
+}
+
+.amount-list{
+
+}
+
+.amount-list h4{
+    background: #FAFAFA;
+    padding: 50px 30px;
+    display: inline-block;
+    font-size: 38px;
+    border-radius: 10px;
+    color: #737373;
+    margin: 10px;
+}
+
+#selected-amount{
+    background: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.donate-today-section input{
+    display: block;
+    margin: 50px auto 30px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #DADADA;
+    font-size: 20px;
+}
+
+/* donate-plan section */
+
+.donate-plan-section{
+    text-align: center;
+}
+
+.plan-cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.plan-card-item{
+    background: #EDF5F6;
+    padding: 20px;
+    margin: 12px;
+}
+
+.plan-card-item p{
+    font-size: 18px;
+}
+
+/* contribute section */
+
+.contribute-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0 0;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.contribute-img img{
+    width: 90%;
+    display: block;
+    border-radius: 10px;
+}
+
+.contribute-section-1 .contribute-img img{
+    margin-left: auto;
+}
