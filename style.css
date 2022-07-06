@@ -27,7 +27,7 @@ p{
 .btn{
     background: #FF5959;
     color: #fff;
-    padding: 18px 32px;
+    padding: 16px 28px;
     display: inline-block;
     border-radius: 5px;
     font-size: 20px;
@@ -75,7 +75,7 @@ p{
 }
 
 .donate-today-text{
-    margin: 20px 0 50px;
+    margin: 20px 0 45px;
 }
 
 .amount-list h4{
@@ -123,6 +123,7 @@ p{
     background: #EDF5F6;
     padding: 50px 30px;
     margin: 12px;
+    border-radius: 5px;
 }
 
 .plan-card-item h4{
@@ -148,7 +149,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0 0;
+    padding: 120px 0 0;
 }
 
 .w-50{
@@ -173,13 +174,13 @@ p{
 
 .contact-section{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 120px;
     width: 70%;
     margin: 0 auto;
 }
 
 #contact-heading{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .contact-section-inner{
